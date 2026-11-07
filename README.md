@@ -1,50 +1,54 @@
-========================================================================  
-  Google AI Pro (5 TB) 零成本两年 (US$0.00 -> 24个月) 全自动控制台  
-========================================================================  
-  
+# ========================================================================
 
-声明：该项目并非本人开发，仅作为圈内开源供大家分析学习使用  
-Disclaimer: I did not develop this project; it is provided as an open-source resource for the community to analyze and learn from.  
+Google AI Pro (5 TB) Zero-Cost 2 Years (US$0.00 -> 24 Months) Fully Automated Console
 
-【一、运行环境要求】
-1. Windows 10 / 11 系统
-2. 已安装 Google Chrome 浏览器（默认路径即可）
-3. 已安装 Python 3.10 或更高版本（安装时勾选 Add Python to PATH）
-4. 网络环境：本机开启美区（US）代理，或在控制台左侧填写代理模板
+Disclaimer: I did not develop this project; it is provided as an open-source resource for the community to analyze and learn from.
 
-【二、快速启动步骤】
-1. 首次使用请双击运行：【1_首次运行_安装依赖并启动.bat】
-2. 之后日常使用直接双击：【2_启动控制台.bat】
-3. 浏览器会自动打开控制台页面：http://127.0.0.1:8765
+[1. System Requirements]
 
-【三、自定义填写支付卡 & 跑号说明】
-1. 填写支付卡（必填）：
-   - 在网页左侧【全局配置与内联免税绑卡】区域，填入你自己的 Visa 或 Mastercard 外币卡：
-     * 卡号（16位数字）
-     * 有效期（月 / 年，如 08 / 29）
-     * 安全码（3位 CVC）
-     * 持卡人英文姓名
-     * 免税邮编默认已填好 97201（美国俄勒冈免税州），无需修改
-   - 填写后点击【💾 保存配置】。
-   - 注：脚本内置严格 0 元消费保护，仅在结账弹窗确认为 US$0.00 时才会点击订阅，全程 0 扣费。
+1. Windows 10 / 11 OS
+2. Google Chrome browser installed (default installation path is fine)
+3. Python 3.10 or higher installed (check "Add Python to PATH" during installation)
+4. Network environment: US proxy enabled locally, or fill in the proxy template on the left side of the console
 
-2. 批量导入 Google 账号：
-   - 在网页右侧【批量放号导入区】粘贴账号（每行一个），支持以下任意格式：
-     * 邮箱----密码----辅助邮箱
-     * 邮箱----密码----辅助邮箱----2FA密钥
-     * 邮箱----密码----2FA密钥
-   - 点击【➕ 一键导入账号列表】。
+[2. Quick Start Steps]
 
-3. 开始全自动执行：
-   - 点击单个账号右侧的【▶ 执行】或顶部的【▶ 批量全自动执行】。
-   - 脚本会自动完成：
-     Step 1: 自动登录 Google 并通过辅助邮箱 / 2FA 验证
-     Step 2: 内联免税绑卡 + 首层 12 个月免费包 (US$0.00)
-     Step 3: 叠加二层 6 个月免费包 (US$0.00 -> 18个月)
-     Step 4: 叠加三层 6 个月免费包 (US$0.00 -> 24个月封顶)
-     Step 5: 自动前往 Google Play 取消自动续订，锁死 2 年到期权益并截图验真
+1. For first-time use, double-click to run: [1_First_Run_Install_Dependencies_and_Start.bat]
+2. For daily use afterward, directly double-click: [2_Start_Console.bat]
+3. The browser will automatically open the console page: [http://127.0.0.1:8765](http://127.0.0.1:8765)
+
+[3. Custom Payment Card Setup & Account Execution Guide]
+
+1. Enter Payment Card (Required):
+* In the "Global Configuration & Inline Tax-Free Card Binding" section on the left side of the web page, enter your own Visa or Mastercard foreign currency card:
+* Card number (16 digits)
+* Expiration date (MM / YY, e.g., 08 / 29)
+* Security code (3-digit CVC)
+* Cardholder name in English
+* Tax-free ZIP code is pre-filled with 97201 (Oregon, USA tax-free state), no modification needed
 
 
-# 卡网：https://faka.cdkey.si
-# 博客：https://blog.caowo.de
-# TG群：@Hello_Florence
+* After filling out, click [💾 Save Configuration].
+* Note: The script features built-in strict $0 spending protection. It will only click subscribe when the checkout pop-up confirms US$0.00, ensuring 0 charges throughout the entire process.
+
+
+2. Batch Import Google Accounts:
+* Paste accounts (one per line) into the "Batch Account Import Area" on the right side of the web page. The following formats are supported:
+* Email----Password----Recovery Email
+* Email----Password----Recovery Email----2FA Key
+* Email----Password----2FA Key
+
+
+* Click [➕ One-Click Import Account List].
+
+
+3. Start Fully Automated Execution:
+* Click [▶ Execute] next to an individual account or [▶ Batch Automated Execution] at the top.
+* The script will automatically perform:
+Step 1: Automatically log in to Google and complete verification via recovery email / 2FA
+Step 2: Inline tax-free card binding + first tier 12-month free package (US$0.00)
+Step 3: Stack second tier 6-month free package (US$0.00 -> 18 months)
+Step 4: Stack third tier 6-month free package (US$0.00 -> 24 months max)
+Step 5: Automatically navigate to Google Play to cancel auto-renewal, lock in 2-year benefits, and take a screenshot for verification
+
+# ========================================================================
